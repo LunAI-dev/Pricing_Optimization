@@ -1,16 +1,14 @@
 # Pricing Optimization
 
-A predictive model for **dynamic room pricing**, engineered to optimize revenue while balancing occupancy and customer satisfaction.  
-This experiment is part of my [Data Science Lab](https://github.com/LunAI-dev/data-science-lab) — a playground of applied ML and DL experiments where chaos meets logic.
+A predictive model for **dynamic room pricing**, engineered to optimize revenue while balancing occupancy.  
+This experiment is part of my [Data Science Lab](https://github.com/LunAI-dev/data-science-lab); a playground of applied ML and DL experiments where chaos meets logic.
 
 ---
 
 ## ⚗️ Project Overview
 
 In the hospitality universe, pricing is deceptively complex: seasonal fluctuations, occupancy dynamics, and guest preferences interact in mysterious ways.  
-Our mission: build a **machine learning system capable of suggesting optimal room prices dynamically**, adapting to simulated reality, and maximizing profit.
 
-Scientific questions explored:
 - How can historical booking patterns and occupancy rates inform pricing strategy?  
 - Which variables exert the strongest influence on price?  
 - Can we increase revenue while preserving occupancy and fairness?
@@ -19,7 +17,7 @@ Scientific questions explored:
 
 ## 🧩 Dataset
 
-The dataset is **synthetic but meticulously designed** to mimic real hotel operations:
+The dataset is **synthetic designed** to mimic real hotel operations:
 
 | Feature | Description |
 |---------|-------------|
@@ -47,7 +45,7 @@ The dataset is **synthetic but meticulously designed** to mimic real hotel opera
 
 ### 2️⃣ Train/Test Split
 - Partitioned data to simulate controlled experiments: 85% train, 15% test.  
-- Setting seeds for reproducibility — even a mad scientist respects order.
+- Setting seeds for reproducibility, even a mad scientist respects order.
 
 ### 3️⃣ Model Selection & Evaluation
 - Explored **linear models** (Linear Regression, Ridge, Lasso) with and without polynomial expansion.  
