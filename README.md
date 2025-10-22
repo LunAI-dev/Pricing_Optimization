@@ -51,7 +51,7 @@ The dataset is **synthetic designed** to mimic real hotel operations:
 - Explored **linear models** (Linear Regression, Ridge, Lasso) with and without polynomial expansion.  
 - Tested **ensemble and non-linear models**: Random Forest, Gradient Boosting, Extra Trees, XGBoost, SVR.  
 - Evaluation metrics: R² (train/test), RMSE, cross-validated R².  
-- Classified models as **Underfitting**, **Overfitting**, or **Balanced** — only the balanced survive.
+- Classified models as **Underfitting**, **Overfitting**, or **Balanced**... and only the balanced survive.
 
 ### 4️⃣ Feature Importance Analysis
 - Extracted **coefficients** or **feature importances** depending on model type.  
